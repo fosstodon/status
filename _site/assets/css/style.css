@@ -14,6 +14,12 @@
   --preformatted: #9baec8;
   --marked: #79b9e7;
   --disabled: #282d37;
+  --green: #71c837;
+  --light-green: #d3e9c5;
+  --amber: #ffcc00;
+  --light-amber: #fff6d5;
+  --red: #ff5555;
+  --light-red: #ffd5d5;
 }
 
 /* Override Simple.css Dark theme */
@@ -107,50 +113,80 @@ nav a.current:hover {
   text-decoration-style: dotted;
 }
 
-/* Format the team banners */
-.team-banner {
-  background: var(--accent-bg);
-  border: 1px solid var(--border);
+/* Format the status banners */
+.status-banner {
+  color: black;
+  border: 3px solid;
   border-radius: 4px;
   position: relative;
-  margin: .5rem .5rem 0 0;
+  margin: 1.5rem 0;
   padding: 1rem;
-  width: 43.6%;
-  height: 400px;
-  float: left;
 }
 
 /* Make full width on mobile screens */
 @media only screen and (max-width: 700px)  {
-  .team-banner {
+  .status-banner {
     float: none;
     margin: .5rem auto;
     width: 90%;
     height: auto;
   }
-  .team-banner span {
+  .status-banner span {
     position: relative;
   }
 }
 
-.team-banner p {
+.status-banner h2 {
+  margin-top: 0;
+}
+
+.status-banner p {
   margin-bottom: .5em;
   font-size: 1rem;
 }
 
-.team-title {
+.status-title {
   font-size: 1.4em !important;
   font-weight: bold;
   margin: 0;
 }
-
-.team-avatar {
+span.up,
+span.problems,
+span.down {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 64px;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   padding: 1rem;
+}
+
+span.up {
+  background-color: var(--green);
+}
+
+.status-banner.up {
+  border-color: var(--green);
+  background: var(--light-green);
+}
+
+span.problems {
+  background-color: var(--amber);
+}
+
+.status-banner.problems {
+  border-color: var(--amber);
+  background: var(--light-amber);
+}
+
+span.down {
+  background-color: var(--red);
+}
+
+.status-banner.down {
+  border-color: var(--red);
+  background: var(--light-red);
 }
 
 .sub-heading {
