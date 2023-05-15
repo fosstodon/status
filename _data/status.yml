@@ -13,8 +13,4 @@
 - name: Mattermost
   status: up
   description: Our Mattermost server is currently up and working as normal.
-
-- name: Down Test
-  status: down
-  description: This is just a test to show what something looks like when it's reporting as down.
   
