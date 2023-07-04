@@ -1,6 +1,6 @@
 - name: Fosstodon
-  status: problems 
-  description: Fosstodon is currently recovering from an outage and is up but still responding slowly.e
+  status: up 
+  description: Fosstodon is currently up and working as normal.
 
 - name: Fosstodon Hub
   status: up
