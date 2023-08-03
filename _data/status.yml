@@ -11,6 +11,6 @@
   description: We are having intermittent problems with our translation service where translations sporadically don't work. We're looking into fixing this, but it may take some time.
 
 - name: Mattermost
-  status: up
-  description: Our Mattermost server is currently up and working as normal.
+  status: down
+  description: We're currently doing a major version upgrade on the server.
   
