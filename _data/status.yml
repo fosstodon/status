@@ -1,6 +1,6 @@
 - name: Fosstodon
-  status: problems
-  description: There are currently issues with our host, Masto.host. Node 2 is down due to an hardware problem; this is already being worked on. <b>As of 05 Oct 2023 09:58 UTC</b> - the problem still exists and you may see intermitent issues using Fosstodon.
+  status: up
+  description: All good 🎉
 
 - name: Fosstodon Hub
   status: up
