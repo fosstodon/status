@@ -1,0 +1,302 @@
+[
+    {
+        "timestamp": 1705649881,
+        "time": 4.325,
+        "response": 200
+    },
+    {
+        "timestamp": 1705649941,
+        "time": 4.505,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650001,
+        "time": 7.226,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650061,
+        "time": 7.854,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650121,
+        "time": 1.474,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650181,
+        "time": 4.678,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650241,
+        "time": 6.521,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650301,
+        "time": 7.429,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650361,
+        "time": 7.871,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650421,
+        "time": 6.82,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650481,
+        "time": 9.171,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650541,
+        "time": 9.68,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650601,
+        "time": 6.666,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650661,
+        "time": 10.041,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650721,
+        "time": 10.299,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650781,
+        "time": 8.642,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650841,
+        "time": 8.305,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650901,
+        "time": 5.234,
+        "response": 200
+    },
+    {
+        "timestamp": 1705650961,
+        "time": 6.61,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651021,
+        "time": 1.142,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651081,
+        "time": 13.438,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651141,
+        "time": 1.33,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651201,
+        "time": 10.6,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651261,
+        "time": 8.474,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651321,
+        "time": 7.975,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651381,
+        "time": 11.396,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651441,
+        "time": 8.733,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651502,
+        "time": 10.383,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651561,
+        "time": 9.813,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651621,
+        "time": 8.261,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651681,
+        "time": 4.417,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651741,
+        "time": 8.541,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651801,
+        "time": 10.472,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651861,
+        "time": 1.211,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651921,
+        "time": 6.047,
+        "response": 200
+    },
+    {
+        "timestamp": 1705651981,
+        "time": 4.43,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652041,
+        "time": 1.489,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652101,
+        "time": 1.594,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652161,
+        "time": 7.943,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652221,
+        "time": 9.127,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652281,
+        "time": 1.602,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652341,
+        "time": 9.381,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652401,
+        "time": 7.122,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652461,
+        "time": 8.256,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652521,
+        "time": 7.658,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652581,
+        "time": 2.387,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652641,
+        "time": 9.522,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652701,
+        "time": 5.412,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652761,
+        "time": 9.43,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652821,
+        "time": 9.752,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652881,
+        "time": 4.969,
+        "response": 200
+    },
+    {
+        "timestamp": 1705652941,
+        "time": 5.412,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653001,
+        "time": 10.023,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653061,
+        "time": 7.928,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653121,
+        "time": 4.415,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653181,
+        "time": 9.906,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653241,
+        "time": 7.396,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653302,
+        "time": 10.095,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653361,
+        "time": 6.786,
+        "response": 200
+    },
+    {
+        "timestamp": 1705653421,
+        "time": 6.426,
+        "response": 200
+    }
+]
