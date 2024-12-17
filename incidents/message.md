@@ -1,1 +1,1 @@
-Everything else is humming along nicely. 🎉
+Everything is humming along nicely. 🎉
