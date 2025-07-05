@@ -1,5 +1,21 @@
 services:
+  caddy:
+    container_name: caddy
+    image: caddy:latest
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS}
+      PROXY_ADDRESS: ${PROXY_ADDRESS}
+    restart: unless-stopped
+    ports:
+      - ${CADDY_HTTP}
+      - ${CADDY_HTTPS}
+    volumes:
+      - ./conf:/etc/caddy
+      - caddy_data:/data
+      - caddy_config:/config
+
   php:
+    container_name: status
     user: "${UID}:${GID}"
     build:
       dockerfile: ./conf/Containerfile
@@ -8,5 +24,7 @@ services:
         source: ./src
         target: /var/www/html
         read_only: false
-    ports:
-      - ${PHP_PORTS}
+
+volumes:
+  caddy_data:
+  caddy_config:
