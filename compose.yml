@@ -1,0 +1,12 @@
+services:
+  php:
+    user: "${UID}:${GID}"
+    build:
+      dockerfile: ./conf/Containerfile
+    volumes:
+      - type: bind
+        source: ./src
+        target: /var/www/html
+        read_only: false
+    ports:
+      - ${PHP_PORTS}
