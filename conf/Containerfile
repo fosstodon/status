@@ -3,3 +3,6 @@ FROM php:8.4.8-apache
 WORKDIR /var/www/html
 
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
+RUN chown -R www-data:www-data /var/www/html
+RUN find /var/www/html -type d -exec chmod 775 {} \;
+RUN find /var/www/html -type f -exec chmod 664 {} \;
