@@ -1,0 +1,8 @@
+#!/bin/bash
+
+unset "$(git rev-parse --local-env-vars)"; git -C /var/www/status-bare/.git describe --always
+
+# Pull the production main branch for the website repo
+cd /var/www/status || exit
+git --git-dir=/var/www/status/.git pull origin dev
+docker compose down || docker compose up -d --build
